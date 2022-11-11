@@ -8,7 +8,6 @@ Last modified on 14:05
 Version 1.0
 */
 
-
 import java.util.Random;
 
 public class SoalDua {
@@ -30,11 +29,12 @@ public class SoalDua {
         for (i = 0; i < 15; i++) {
             if (i<7){
                 if (i == 0) {
-                    x = ran.nextInt(2);         // 1 konsonan, 0 vocal
+                    x = ran.nextInt(2);
                     if (x == 1) {
                         chrKapital = Character.toUpperCase(chrKonsonan[ran.nextInt(21)]);
                         System.out.print(chrKapital);
-                    } else {
+                    }
+                    else {
                         chrKapital = Character.toUpperCase(chrVocal[ran.nextInt(21)]);
                         System.out.print(chrKapital);
                     }
@@ -42,24 +42,26 @@ public class SoalDua {
                 else if (i % 2 == 1) {
                     if (x == 1) {
                         System.out.print(chrVocal[ran.nextInt(5)]);
-                    } else {
+                    }
+                    else {
                         System.out.print(chrKonsonan[ran.nextInt(21)]);
                     }
                 }
                 else if (i % 2 == 0) {
                     if (x == 0) {
                         System.out.print(chrVocal[ran.nextInt(5)]);
-                    } else {
+                    }
+                    else {
                         System.out.print(chrKonsonan[ran.nextInt(21)]);
                     }
                 }
             }
             else {
                 System.out.print(chrAlfabet[ran.nextInt(26)]);
-
             }
         }
     }
 }
+//test
 
 

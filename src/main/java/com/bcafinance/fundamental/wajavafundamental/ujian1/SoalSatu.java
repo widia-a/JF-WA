@@ -8,7 +8,6 @@ Last modified on 13:41
 Version 1.0
 */
 
-
 import java.util.Scanner;
 
 public class SoalSatu {
