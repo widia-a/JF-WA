@@ -8,10 +8,9 @@ Last modified on 14:36
 Version 1.0
 */
 
-
 public class Soal2 {
     public static void main(String[] args) {
-        int keyword = 224;
+        int keyword = 99;
         int[] val = {66,77,80,84,88,99,100};
         int low = 0;
         int high = val.length - 1;
