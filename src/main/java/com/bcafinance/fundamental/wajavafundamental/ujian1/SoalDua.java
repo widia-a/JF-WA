@@ -26,7 +26,9 @@ public class SoalDua {
         int x = 0;
         int i;
 
-        for (i = 0; i < 15; i++) {
+        System.out.println("TEST COMMIT");
+
+        for (i = 0; i < ran.nextInt(12, 50); i++) {
             if (i<7){
                 if (i == 0) {
                     x = ran.nextInt(2);
